@@ -1,0 +1,23 @@
+{
+    "name": "mark/my-test",
+    "description": "a php project for monitor system's test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "MarkChang",
+            "email": "1431293514@qq.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "guzzlehttp/guzzle": "^6.3",
+        "openzipkin/zipkin": "^1.2.2",
+        "symfony/http-foundation": "3.4.x-dev",
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload": {
+        "psr-4":{
+            "Controller\\": "Controller/"
+        }
+    }
+}
